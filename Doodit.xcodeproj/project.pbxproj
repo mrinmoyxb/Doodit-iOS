@@ -13,6 +13,7 @@
 		F5C9F7E72BE297DE003D77F3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9F7E62BE297DE003D77F3 /* ListView.swift */; };
 		F5C9F7EA2BE299C4003D77F3 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9F7E92BE299C4003D77F3 /* ListRowView.swift */; };
 		F5C9F7EC2BE29D99003D77F3 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9F7EB2BE29D99003D77F3 /* AddView.swift */; };
+		F5C9F7EE2BE2B39B003D77F3 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9F7ED2BE2B39B003D77F3 /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F5C9F7E62BE297DE003D77F3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		F5C9F7E92BE299C4003D77F3 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		F5C9F7EB2BE29D99003D77F3 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		F5C9F7ED2BE2B39B003D77F3 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		F5C9F7E22BE296E4003D77F3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F5C9F7ED2BE2B39B003D77F3 /* ItemModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C9F7EE2BE2B39B003D77F3 /* ItemModel.swift in Sources */,
 				F5C9F7EC2BE29D99003D77F3 /* AddView.swift in Sources */,
 				F5C9F7D52BE28F9D003D77F3 /* DooditApp.swift in Sources */,
 				F5C9F7E72BE297DE003D77F3 /* ListView.swift in Sources */,
