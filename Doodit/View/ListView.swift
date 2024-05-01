@@ -3,16 +3,38 @@
 //  Doodit
 //
 //  Created by Mrinmoy Borah on 01/05/24.
-//
 
 import SwiftUI
 
 struct ListView: View {
+    
+    @State var items: [String] = [
+    "This is task 1",
+    "This is task 2",
+    "This is task 3"
+    ]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            ForEach(items, id: \.self){ item in
+                ListRowView(title: item)
+            }
+        }
+        .listStyle(PlainListStyle())
+        .navigationTitle("Todo List 📝")
+            .navigationBarItems(
+                leading: EditButton(),
+                trailing: NavigationLink{
+            Text("Destination")
+                } label: {
+                    Text("Add")
+                })
     }
 }
 
 #Preview {
-    ListView()
+    NavigationStack{
+        ListView()
+    }
 }
+
+
