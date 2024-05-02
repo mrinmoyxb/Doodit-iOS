@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct DooditApp: App {
+    
+    @StateObject var listViewModel: ListViewModel = ListViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ListView()
+            NavigationStack{
+                ListView()
+            }.environmentObject(listViewModel)
         }
     }
 }

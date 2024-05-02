@@ -9,7 +9,10 @@ import SwiftUI
 
 struct AddView: View {
     
+    @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var listViewModel: ListViewModel
     @State var textInput: String = ""
+    
     var body: some View {
         ScrollView{
             VStack {
@@ -19,7 +22,7 @@ struct AddView: View {
                     .background(.taskbox)
                     .cornerRadius(10)
                 
-                Button(action: {}, label: {Text("SAVE")
+                Button(action: saveTask, label: {Text("SAVE")
                         .font(.headline)
                         .bold()
                         .frame(maxWidth: .infinity).frame(height: 55)
@@ -28,6 +31,11 @@ struct AddView: View {
             }.padding(14)
         }.navigationTitle("Add your task 🎯")
 
+    }
+    
+    func saveTask(){
+        listViewModel.addItem(title: textInput)
+        presentationMode.wrappedValue.dismiss()
     }
 }
 
