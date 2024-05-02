@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F55467542BE37CC1000DAB5C /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55467532BE37CC1000DAB5C /* ListViewModel.swift */; };
+		F5BCB7832BE3E19700028D52 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCB7822BE3E19700028D52 /* NoItemsView.swift */; };
 		F5C9F7D52BE28F9D003D77F3 /* DooditApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9F7D42BE28F9D003D77F3 /* DooditApp.swift */; };
 		F5C9F7D92BE28F9D003D77F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C9F7D82BE28F9D003D77F3 /* Assets.xcassets */; };
 		F5C9F7DC2BE28F9D003D77F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C9F7DB2BE28F9D003D77F3 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		F55467532BE37CC1000DAB5C /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		F5BCB7822BE3E19700028D52 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		F5C9F7D12BE28F9D003D77F3 /* Doodit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doodit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C9F7D42BE28F9D003D77F3 /* DooditApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DooditApp.swift; sourceTree = "<group>"; };
 		F5C9F7D82BE28F9D003D77F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				F5C9F7E92BE299C4003D77F3 /* ListRowView.swift */,
+				F5BCB7822BE3E19700028D52 /* NoItemsView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				F55467542BE37CC1000DAB5C /* ListViewModel.swift in Sources */,
 				F5C9F7D52BE28F9D003D77F3 /* DooditApp.swift in Sources */,
 				F5C9F7E72BE297DE003D77F3 /* ListView.swift in Sources */,
+				F5BCB7832BE3E19700028D52 /* NoItemsView.swift in Sources */,
 				F5C9F7EA2BE299C4003D77F3 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
